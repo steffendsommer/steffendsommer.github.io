@@ -1,5 +1,6 @@
 # Site settings
 title: Steffen D. Sommer
+subtitle: "iOS Developer from Copenhagen, Denmark"
 email: steffendsommer@icloud.com
 description: "An iOS developer blogging about topics such as ReactiveCocoa, MVVM, dependency injection, unit testing, autolayout, Swift and more."
 baseurl: "" # the subpath of your site, e.g. /blog/

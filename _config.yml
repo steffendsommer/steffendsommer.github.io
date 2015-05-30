@@ -1,0 +1,18 @@
+# Site settings
+title: Steffen D. Sommer
+email: steffendsommer@icloud.com
+description: "An iOS developer blogging about topics such as ReactiveCocoa, MVVM, dependency injection, unit testing, autolayout, Swift and more."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.steffendsommer.com" # the base hostname & protocol for your site
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+    layout: project
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM

@@ -47,7 +47,7 @@
  * Site footer
  */
 .site-footer {
-    margin-top:30px;
+    margin-top:$spacing-unit;
     padding: $spacing-unit 0;
 
     hr {
@@ -106,12 +106,12 @@
  */
 .post-header {
     text-align:center;
-    margin-bottom:30px;
+    margin-bottom:$spacing-unit;
 }
 
 .post-headline-info {
     text-align:center;
-    margin-bottom:30px;
+    margin-bottom:$spacing-unit;
 
     h2 {
         margin-bottom:0px;
@@ -125,8 +125,8 @@
 
 .post-content {
     img, iframe {
-        margin-top:30px;
-        margin-bottom:30px;
+        margin-top:$spacing-unit;
+        margin-bottom:$spacing-unit;
         margin-left:auto;
         margin-right:auto;
         display: block;
@@ -204,7 +204,7 @@
 .rslides_tabs {
     list-style:none;
     margin: 0 auto;
-    margin-bottom:30px;
+    margin-bottom:$spacing-unit;
 
     li {
         margin:0px 8px 0px 8px;

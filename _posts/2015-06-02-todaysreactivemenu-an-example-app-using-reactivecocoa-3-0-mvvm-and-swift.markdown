@@ -48,7 +48,7 @@ The purpose of the app is to show whatever is on the today's menu of my workplac
 - The sides
 - And if there's going to be served cake
 
-Using [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper){:target="_blank"}, and the built-in `DateTransform(), this can be fairly simple mapped:
+Using [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper){:target="_blank"}, and the built-in `DateTransform()`, this can be fairly simple mapped:
 
 ```swift
 var identifier: String?

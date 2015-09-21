@@ -42,7 +42,7 @@ For the past couple of weeks I haven't really been using the apps, and by using 
 ## The price
 The price may be the biggest issue when I want to advice people in whether or not they should buy the Apple Watch. This piece of technology does bring a lot of nice convenient features to the table, but can it justify the price? For now, I don't think it can for the average smartphone user. Would I still buy it? Yes. Maybe the price will be more fair when the (postponed) watchOS 2.0 comes out.
 
-# Final thougts
+# Final thoughts
 So, should you go out and by the Apple Watch? I think it depends on your wallet. For me, I want the Apple Watch, but I think it's primarily because I'm an iOS developer and/or a tech junkie. For the average iPhone user I'm not convinced that the price is justifiable yet. My bet is that this will change over time when watchOS 2.0 has landed and when we'll hopefully start to see apps taking more advantage of the platform. Or perhaps when app developers just understand the platform and it's use-cases better.
 
 What's your thoughts on the Apple Watch? Did I miss any cool features or do you simply disagree with my views? Please feel free to pitch in on [@steffendsommer](https://twitter.com/steffendsommer){:target="_blank"} or in the comments ✌️.

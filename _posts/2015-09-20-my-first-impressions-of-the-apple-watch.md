@@ -2,8 +2,9 @@
 layout: post
 title:  "My first impressions of the Apple Watch"
 date:   2015-09-20 20:12:13
-summary: You might already be thinking, "didn't the Apple Watch came out, like ages ago?". The answer is yes, and no. Unless you're one of the lucky ones living in a country where it has actually launched, you might have a hard time getting your hands on a Apple Watch. In Copenhagen, Denmark, unfortunately the Apple Watch has not yet launched (but will on the 25th of September) - however, a quick train ride to Sweden solved the problem. So, thats what the awesome company I work for did, and because of that, I've been wearing the Apple Watch for around 2-3 weeks now.
 group: blog
+summary: You might already be thinking, "didn't the Apple Watch came out, like ages ago?". The answer is yes, and no. Unless you're one of the lucky ones living in a country where it has actually launched, you might have a hard time getting your hands on a Apple Watch. In Copenhagen, Denmark, unfortunately the Apple Watch has not yet launched (but will on the 25th of September) - however, a quick train ride to Sweden solved the problem. So, thats what the awesome company I work for did, and because of that, I've been wearing the Apple Watch for around 2-3 weeks now.
+
 ---
 
 You might already be thinking, "didn't the Apple Watch came out, like ages ago?". The answer is yes, and no. Unless you're one of the lucky ones living in a country where it has actually launched, you might have a hard time getting your hands on a Apple Watch. In Copenhagen, Denmark, unfortunately the Apple Watch has not yet launched (but will on the 25th of September) - however, a quick train ride to Sweden solved the problem. So, thats what the awesome [company](http://www.unwire.com){:target="_blank"} I work for did, and because of that, I've been wearing the Apple Watch for around 2-3 weeks now.

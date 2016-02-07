@@ -2,8 +2,9 @@
 layout: post
 title:  "A list of useful Xcode plugins"
 date:   2015-08-27 18:45:12
-summary: Because I like to get inspired by how others work, I decided to do a small list of the Xcode plugins I use daily. I use Alcatraz for handling my Xcode plugins. It works fairly well, except sometimes when Apple updates Xcode. The list of plugins in this post has been used with Xcode 6.4.
 group: blog
+summary: Because I like to get inspired by how others work, I decided to do a small list of the Xcode plugins I use daily. I use Alcatraz for handling my Xcode plugins. It works fairly well, except sometimes when Apple updates Xcode. The list of plugins in this post has been used with Xcode 6.4.
+
 ---
 
 ![Vacation on Bali](/assets/posts/bali.jpg){:height="300px"}

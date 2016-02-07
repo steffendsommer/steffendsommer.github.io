@@ -2,8 +2,9 @@
 layout: post
 title:  "TodaysReactiveMenu - An example app using ReactiveCocoa 3.0, MVVM and Swift"
 date:   2015-06-02 18:06:28
-summary: I've been working with ReactiveCocoa the last 8 months and I'm overall very satisfied with the framework and the approach in general. I've been following the progress on ReactiveCocoa 3.0 (mainly focused around Swift) and when it recently hit beta-4, I decided to dig in.
 group: blog
+summary: I've been working with ReactiveCocoa the last 8 months and I'm overall very satisfied with the framework and the approach in general. I've been following the progress on ReactiveCocoa 3.0 (mainly focused around Swift) and when it recently hit beta-4, I decided to dig in.
+
 ---
 
 TL;DR The source code can be found here: [https://github.com/s0mmer/TodaysReactiveMenu ](https://github.com/s0mmer/TodaysReactiveMenu){:target="_blank"}

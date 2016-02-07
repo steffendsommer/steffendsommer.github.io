@@ -2,8 +2,9 @@
 layout: post
 title:  "Useful resources for an iOS developer"
 date:   2015-03-10 19:32:14
-summary: There already exists great lists of resources for the iOS developer, as here and here and I also personally wrote up a list of my most used apps on Medium. However, new tools pop up all the time and sometimes it's just hard to figure out what's useful and what's not. This is my take on a list of resources for iOS developers based on my personal preferences and experiences.
 group: blog
+summary: There already exists great lists of resources for the iOS developer, as here and here and I also personally wrote up a list of my most used apps on Medium. However, new tools pop up all the time and sometimes it's just hard to figure out what's useful and what's not. This is my take on a list of resources for iOS developers based on my personal preferences and experiences.
+
 ---
 
 There already exists great lists of resources for the iOS developer, as [here](http://benscheirman.com/2013/08/the-ios-developers-toolbelt/){:target="_blank"} and [here](http://dailytekk.com/2014/02/20/100-great-resources-for-ios-developers/?reading=continue){:target="_blank"} and I also personally wrote up a list of my most used apps on Medium. However, new tools pop up all the time and sometimes it's just hard to figure out what's useful and what's not. This is my take on a list of resources for iOS developers based on my personal preferences and experiences. The intention is not to create a full list of every alternative within each category, but to share resources I've either been satisfied to work with or plan to try out. I will probably update this post as I go along and get more experience in my worklife as an iOS developer. Feel free to add a comment if you feel like I'm missing something.

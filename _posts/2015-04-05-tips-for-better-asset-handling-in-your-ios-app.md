@@ -2,8 +2,9 @@
 layout: post
 title:  "Tips for better asset handling in your iOS app"
 date:   2015-04-05 16:43:03
-summary: Even though I like the idea of not having to handle image assets, it's often not a viable solution. Asset handling can easy be overlooked in a app that grows in complexity. Here are some of my suggestions for handling your assets better.
 group: blog
+summary: Even though I like the idea of not having to handle image assets, it's often not a viable solution. Asset handling can easy be overlooked in a app that grows in complexity. Here are some of my suggestions for handling your assets better.
+
 ---
 
 # 1. Let Xcode generate 1x, 2x and 3x PNG's

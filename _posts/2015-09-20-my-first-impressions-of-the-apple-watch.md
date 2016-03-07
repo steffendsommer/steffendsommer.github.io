@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title:  "My first impressions of the Apple Watch"
 date:   2015-09-20 20:12:13

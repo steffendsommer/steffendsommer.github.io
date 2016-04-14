@@ -8,7 +8,7 @@ group: blog
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 %}
       <li>
         <div class="post-headline-info">
           <h2>
@@ -21,5 +21,9 @@ group: blog
       </li>
     {% endfor %}
   </ul>
+  
+  <div class="older-posts">
+    <a href="/blog/archive">Older posts</a>
+  </div>
 
 </div>

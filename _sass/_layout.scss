@@ -158,6 +158,21 @@
     margin-top:80px;
 }
 
+.older-posts {
+  margin-top:70px;
+  text-align:center;
+}
+
+
+/**
+ * Posts archive
+ */
+.archive {
+  ul:not(:last-child) {
+      margin-bottom:50px;
+  }
+}
+
 
 
 /**

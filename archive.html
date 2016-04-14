@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog archive
+permalink: /blog/archive
+exclude: true
+group: blog
+---
+
+<div class="archive">
+
+  {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+      <ul>
+      {% assign date = currentdate %}
+    {% endif %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></li>
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+
+</div>

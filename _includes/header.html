@@ -13,9 +13,11 @@
       {% assign pages = site.pages | sort:"weight"  %}
       {% assign current = page.url | downcase | split: '/' %}
       {% for p in pages %}
-        {% if p.title %}
-        <a class="page-link{% if current[1] == p.group or (current.size == 0 and p.group == 'blog') %} active{% endif %}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-        {% endif %}
+        {% unless p.exclude %}
+          {% if p.title %}
+          <a class="page-link{% if current[1] == p.group or (current.size == 0 and p.group == 'blog') %} active{% endif %}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+          {% endif %}
+        {% endunless %}
       {% endfor %}
     </div>
 

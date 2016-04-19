@@ -12,6 +12,10 @@ collections:
     output: true
     permalink: /projects/:path/
     layout: project
+  talks:
+    output: true
+    permalink: /talks/:path/
+    layout: talk
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="talk">
+  
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.event }} - {{ page.date | date: "%b %-d, %Y" }}{% if page.external-link %} - <a href="{{ page.external-link }}" target="_blank">Event</a>{% endif %}</p>
+  </header>
+  
+  <article class="post-content">
+    {{ content }}
+    
+    {% if page.speaker-deck-id %}
+    <h1>Slides</h1>
+    <script async class="speakerdeck-embed" data-id="{{ page.speaker-deck-id }}" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+    {% endif %}
+    
+    {% if page.related-posts %}
+    <h1>Related posts</h1>
+    <ul>
+    {% for p in page.related-posts %}
+      {% assign results = site.posts | where:"id", p %}
+      {% assign post = results[0] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+  
+</div>

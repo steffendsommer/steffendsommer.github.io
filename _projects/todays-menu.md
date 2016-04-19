@@ -10,7 +10,7 @@ screens:
 - /assets/projects/todaysmenu/1.png
 - /assets/projects/todaysmenu/2.png
 - /assets/projects/todaysmenu/3.png 
-group: project
+group: projects
 ---
 
 Since I started working with [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa){:target="_blank"} (2.x) I've been following the upcoming [Swift version](https://github.com/ReactiveCocoa/ReactiveCocoa/tree/swift-development){:target="_blank"}, or ReactiveCocoa 3.0, closely. When it hit beta-4, I thought it was time to finally try it out. I decided to make a simple one-view-app that displays the today's menu at my work.

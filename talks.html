@@ -1,0 +1,31 @@
+---
+layout: default
+title: Talks
+permalink: /talks/
+weight: 1
+group: talks
+---
+
+<div class="talks">
+  {% assign currentdate = site.time | date: '%s' %}
+  
+  <h1>Upcoming</h1>
+  <ul>
+  {% for talk in site.talks | sort: "event-date" | reverse %}
+    {% assign eventdate = talk.event-date | date: '%s' %}
+    {% if eventdate >= currentdate %}
+    <li><a href="{{ talk.url }}">{{ talk.title }}</a><br><span class="post-meta">{{ talk.event }} - {{ talk.event-date | date: "%b %-d, %Y" }}</span></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+  
+  <h1>Past</h1>
+  <ul>
+    {% for talk in site.talks | sort: "event-date" | reverse %}
+      {% assign eventdate = talk.event-date | date: '%s' %}
+      {% if eventdate < currentdate %}
+      <li><a href="{{ talk.url }}">{{ talk.title }}</a><br><span class="post-meta">{{ talk.event }} - {{ talk.event-date | date: "%b %-d, %Y" }}</span></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

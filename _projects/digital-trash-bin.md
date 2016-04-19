@@ -11,7 +11,7 @@ screens:
 - /assets/projects/digitaltrashbin/2.png
 - /assets/projects/digitaltrashbin/3.png
 - /assets/projects/digitaltrashbin/4.png
-group: project
+group: projects
 ---
 
 Vipp wanted a digital version of their world-famous trash bin. After the trash bin had been designed in a digital format by another designer, I developed a small application for both OSX and Windows. The application simply replaced the built-in trash bin in the OS with the Vipp Digital Trash Bin.

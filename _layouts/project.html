@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %Y" }}{% if page.role %} • {{ page.role }}{% endif %}{% if page.refurl %} • <a href="{{ page.refurl }}" target="_blank">External website</a>{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %Y" }}{% if page.role %} - {{ page.role }}{% endif %}{% if page.refurl %} - <a href="{{ page.refurl }}" target="_blank">External website</a>{% endif %}</p>
   </header>
 
   <article class="post-content">

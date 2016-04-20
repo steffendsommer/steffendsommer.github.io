@@ -1,4 +1,5 @@
 ---
+
 layout: project
 title: Trivia Fight
 date: April 2012
@@ -13,6 +14,7 @@ screens:
 - /assets/projects/triviafight/4.png
 - /assets/projects/triviafight/5.png
 group: projects
+
 ---
 
 Trivia Fight is a quiz application developed for the iPhone. I joined the project while Trivia Fight was only an idea and I've had influence on the final concept. Besides that, I planned the technical foundation and lead the development of Trivia Fight. I have done all of the iOS development solely, with the interface being designed by another company. Trivia Fight was originally hosted using Heroku, but is hosted today using AWS Elastic Beanstalk.

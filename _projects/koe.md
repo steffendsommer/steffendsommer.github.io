@@ -1,4 +1,5 @@
 ---
+
 layout: project
 title: KOE
 date: October 2013
@@ -6,6 +7,7 @@ role: Founder
 thumbnail: /assets/projects/koe/koe.png
 weight: 2
 group: projects
+
 ---
 
 <iframe src="https://player.vimeo.com/video/79963001" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

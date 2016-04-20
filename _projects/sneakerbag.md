@@ -1,4 +1,5 @@
 ---
+
 layout: project
 title: SNEAKERBAG
 date: February 2014
@@ -8,6 +9,7 @@ weight: 5
 screens:
 - /assets/projects/sneakerbag/1.png
 group: projects
+
 ---
 
 SNEAKERBAG is an app for the iPhone which eases the task of selling, buying and trading sneakers. The app has a Tinder-inspired "exploring view" where one can easily swipe through all the sneakers in the database.

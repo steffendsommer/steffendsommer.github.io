@@ -4,6 +4,8 @@ layout: post
 title:  "A list of useful Xcode plugins"
 date:   2015-08-27 18:45:12
 group: blog
+related-posts:
+- /blog/2015/03/10/useful-resources-for-an-ios-developer
 summary: Because I like to get inspired by how others work, I decided to do a small list of the Xcode plugins I use daily. I use Alcatraz for handling my Xcode plugins. It works fairly well, except sometimes when Apple updates Xcode. The list of plugins in this post has been used with Xcode 6.4.
 
 ---

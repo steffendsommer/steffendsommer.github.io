@@ -8,7 +8,7 @@ summary: I've been working with ReactiveCocoa the last 8 months and I'm overall 
 
 ---
 
-TL;DR The source code can be found here: [https://github.com/s0mmer/TodaysReactiveMenu ](https://github.com/s0mmer/TodaysReactiveMenu){:target="_blank"}
+TL;DR The source code can be found here: [https://github.com/steffendsommer/TodaysReactiveMenu ](https://github.com/steffendsommer/TodaysReactiveMenu){:target="_blank"}
 
 I've been working with ReactiveCocoa the last 8 months and I'm overall very satisfied with the framework and the approach in general. I've been following the progress on [ReactiveCocoa 3.0](https://github.com/ReactiveCocoa/ReactiveCocoa/tree/swift-development){:target="_blank"} (mainly focused around Swift) and when it recently hit beta-4, I decided to dig in.
 
@@ -138,7 +138,7 @@ let inactive = NSNotificationCenter.defaultCenter().rac_addObserverForName(UIApp
 self.viewIsActive <~ merge([active, inactive])
 ```
 
-Two signal producers to tell us whether or not the view is active. Note how `toSignalProducer()` has been used to go from `RACSignal` to `SignalProducer`. Note how `ignoreError` is being used to tell the compiler that we only care about values, not errors. The `ignoreError` and `merge` operator are small helpers I made during this project and is located [in the repo](https://github.com/s0mmer/TodaysReactiveMenu/blob/master/TodaysReactiveMenu/Util/RACHelpers.swift){:target="_blank"} as well.
+Two signal producers to tell us whether or not the view is active. Note how `toSignalProducer()` has been used to go from `RACSignal` to `SignalProducer`. Note how `ignoreError` is being used to tell the compiler that we only care about values, not errors. The `ignoreError` and `merge` operator are small helpers I made during this project and is located [in the repo](https://github.com/steffendsommer/TodaysReactiveMenu/blob/master/TodaysReactiveMenu/Util/RACHelpers.swift){:target="_blank"} as well.
 
 Having the knowledge for when the view is active, let's try to use this for triggering a menu fetch:
 

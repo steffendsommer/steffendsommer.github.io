@@ -4,7 +4,7 @@ layout: project
 title: Today's (Reactive) Menu
 date: May 2015
 role: Creator
-refurl: https://github.com/s0mmer/TodaysReactiveMenu
+refurl: https://github.com/steffendsommer/TodaysReactiveMenu
 thumbnail: /assets/projects/todaysmenu/todaysmenu.png
 weight: 6
 screens:
@@ -19,4 +19,4 @@ Since I started working with [ReactiveCocoa](https://github.com/ReactiveCocoa/Re
 
 The app is currently focused around ReactiveCocoa 4.0, MVVM, Swift 2 and watchOS 2 but it also explores other frameworks/tools.
 
-The app uses a small backend I developed in Rails. I [open sourced the app on GitHub](https://github.com/s0mmer/TodaysReactiveMenu){:target="_blank"} and my plan is to continue to explore ReactiveCocoa as the framework progresses.
+The app uses a small backend I developed in Rails. I [open sourced the app on GitHub](https://github.com/steffendsommer/TodaysReactiveMenu){:target="_blank"} and my plan is to continue to explore ReactiveCocoa as the framework progresses.

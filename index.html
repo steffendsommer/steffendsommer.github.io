@@ -10,6 +10,7 @@ group: blog
   <ul class="post-list">
     {% for post in site.posts limit:5 %}
       <li>
+        
         <div class="post-headline-info">
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

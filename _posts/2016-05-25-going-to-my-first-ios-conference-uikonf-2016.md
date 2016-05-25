@@ -24,7 +24,7 @@ I've been to Berlin several times and I felt like I've seen a lot of the city, b
 
 We ended our bike tour at a restaurant with a very nice location close to a canal. It was a great opportunity to reflect on the day with the other participants as well as getting to know them even more. Oh ye, and of course drinking a cold 🍺 We ended the day by meeting with the people from all of the other social events at a pretty cool place called InFarm. Here we were able to check in and grab some free drinks before heading tired and satisfied back to the hotel.
 
-![InFarm](/assets/posts/social_04.jpg)
+| ![Checking in for UIKonf](/assets/posts/social_03.jpg) | ![InFarm](/assets/posts/social_04.jpg) |
 
 
 # Day 2: First day with talks

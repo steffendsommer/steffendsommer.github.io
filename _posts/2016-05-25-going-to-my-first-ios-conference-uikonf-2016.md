@@ -33,21 +33,21 @@ We ended our bike tour at a restaurant with a very nice location close to a cana
 
 After waking up with sore legs and a slight sunburn I was super excited for the actual first day with talks at UIKonf. After arriving at the beautiful venue and grabbing a delicious coffee from Companion Coffee, the talks began. Here are my top picks from the first day with talks:
 
-## Jeff Watkins - Legacy
+## [Jeff Watkins - Legacy](https://www.youtube.com/watch?list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k&v=AksIrgPFSgY){:target="_blank"}
 
 ![Jeff Watkins on stage](/assets/posts/conf_02.jpg)
 
 The day started with [Jeff Watkins](https://twitter.com/jeffwatkins){:target="_blank"} talking about legacy. Not as in legacy code, but as in, the legacy we leave behind when we pass on. I watch a lot of videos from iOS conferences around the world and I always think that it is refreshing to hear talks that are related to our field, but without being super technical. Jeff talked a lot about how we together as a community can contribute to a better future. He touched subjects such as race and gender discrimination and how important it is to expand our community. Definitely a lot of food for thought and a talk that must have required some courage to pull off. Lots of kudos!
 
 
-## Steve Scott - MVVM-C In Practice
+## [Steve Scott - MVVM-C In Practice](https://www.youtube.com/watch?v=9VojuJpUuE8&list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k&index=6){:target="_blank"}
 
 ![Steve Scott on stage](/assets/posts/conf_03.jpg)
 
 I've being working with the MVVM pattern for the last 1-2 years and I totally related to the problem [Steve Scott](https://twitter.com/macdevnet){:target="_blank"} were trying to solve using a slightly modified pattern called MVVM-C. The C in MVVM-C stands for Coordinator which tries to take the responsibility of navigation. The talk was very practical and I believe it is a great starting point for apps that are architectured using MVVM. I will personally revisit the video of the talk and try to incorporate his ideas into my thinking of MVVM.
 
 
-## Ellen Shapiro - Outside In - Using UI Tests To Start Improving Your App
+## [Ellen Shapiro - Outside In - Using UI Tests To Start Improving Your App](https://www.youtube.com/watch?v=hYCUy-9yq_M&list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k&index=7){:target="_blank"}
 
 ![Ellen Shapiro on stage](/assets/posts/conf_04.jpg)
 
@@ -61,21 +61,21 @@ All in all a great day with great talks, awesome coffee (and ice cream), lots of
 Full of energy after a good night of sleep, I was excited to hear more talks on the second day with talks at UIKonf. The structure of the day was more or less the same as the first day with talks besides a very nice after party. Here are my top picks from the second day of talks:
 
 
-## Andreas Schranzhofer - App Security and Securing Apps
+## [Andreas Schranzhofer - App Security and Securing Apps](https://www.youtube.com/watch?v=ipMlEMnKwKs&list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k&index=10){:target="_blank"}
 
 ![Andreas Schranzhofer on stage](/assets/posts/conf_05.jpg)
 
 I must be very honest and say that app security is not an area within iOS development that I'm super excited about. I totally understand the importance and I strive to do what I must do in order to make secure apps, but it's not something I'm super passionate about. Because of that, I did not know what to expect of [Andreas Schranzhofer](https://twitter.com/Schranzhofer){:target="_blank"}'s talk about app security. However the talk was super practical, structured and full of super useful tips. Basically he went through a lot of different areas of an iOS app and explained how one is able to enhance the security in those specific areas.
 
 
-## Michael May - The Empathetic Programmer
+## [Michael May - The Empathetic Programmer](https://www.youtube.com/watch?v=hXo6CWTmb9c&index=12&list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k){:target="_blank"}
 
 ![Michael May on stage](/assets/posts/conf_06.jpg)
 
 I believe [Michal May](https://twitter.com/codermay){:target="_blank"} talked about a super important subject within the iOS community and something that we should continuously remind ourselves about: empathy. He talked about how we should remember that behind a rating, an avatar, an online profile or a pull-request, there's a human being. We should remember how we communicate with each other and in general be more empathetic. We should be aware about contexts and be open to iterate instead of recreating.
 
 
-## Daniel H. Steinberg - A Time Lapse look at Swift
+## [Daniel H. Steinberg - A Time Lapse look at Swift](https://www.youtube.com/watch?v=kyzN5I-2FoY&list=PLdr22uU_wISqm9QbnczWxXs9qyuWpSU4k&index=15){:target="_blank"}
 
 It's pretty easy to get influenced by the critics of Swift and I think [Daniel H. Steinberg](https://twitter.com/dimsumthinking){:target="_blank"} did a really good job on reflecting on some of the criticism that Swift has received during the past 2 years since Swift was announced. He dived into the history of Swift and commented on the progress since the language was announced. A question that stood out the most to me from his talk were: "What's the rush?". Why are we so impatient about Swift getting a stable ABI and being somewhat feature complete. Daniel did a really good job on reminding us the importance about getting it right and that instead of being sceptical, we should be thankful that the team behind Apple is taking the time for doing it right. 
 

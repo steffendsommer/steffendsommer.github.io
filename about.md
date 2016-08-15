@@ -14,4 +14,4 @@ My current focus within iOS development is on Swift, VIPER, SOLID, TDD, POP and 
 
 When I'm not writing software I'm probably socialising, travelling the world or doing triathlon (2014 Ironman). I'm also a big fan of boards 🏄 🏂.
 
-My [CV](/cv){:target="_blank"} is available here, on [LinkedIn](http://dk.linkedin.com/pub/steffen-d-sommer/21/8b0/726/){:target="_blank"} and on [Stack Overflow](http://stackoverflow.com/cv/steffendsommer){:target="_blank"}. I am currently employed at [Unwire](http://unwire.com){:target="_blank"}.
+My CV is available [here](/cv){:target="_blank"}, on [LinkedIn](http://dk.linkedin.com/pub/steffen-d-sommer/21/8b0/726/){:target="_blank"} and on [Stack Overflow](http://stackoverflow.com/cv/steffendsommer){:target="_blank"}. I am currently employed at [Unwire](http://unwire.com){:target="_blank"}.

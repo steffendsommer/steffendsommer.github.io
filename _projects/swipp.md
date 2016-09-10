@@ -2,7 +2,7 @@
 
 layout: project
 title: Swipp
-date: September 2016
+date: September 2014
 role: iOS Developer
 company: Unwire
 companyurl: http://unwire.com

@@ -1,18 +1,16 @@
 ---
-
 layout: post
 title:  "My first impressions of the Apple Watch"
 date:   2015-09-20 20:12:13
 group: blog
 summary: You might already be thinking, "didn't the Apple Watch came out, like ages ago?". The answer is yes, and no. Unless you're one of the lucky ones living in a country where it has actually launched, you might have a hard time getting your hands on a Apple Watch. In Copenhagen, Denmark, unfortunately the Apple Watch has not yet launched (but will on the 25th of September) - however, a quick train ride to Sweden solved the problem. So, thats what the awesome company I work for did, and because of that, I've been wearing the Apple Watch for around 2-3 weeks now.
-
 ---
 
-You might already be thinking, "didn't the Apple Watch came out, like ages ago?". The answer is yes, and no. Unless you're one of the lucky ones living in a country where it has actually launched, you might have a hard time getting your hands on a Apple Watch. In Copenhagen, Denmark, unfortunately the Apple Watch has not yet launched (but will on the 25th of September) - however, a quick train ride to Sweden solved the problem. So, thats what the awesome [company](http://www.unwire.com){:target="_blank"} I work for did, and because of that, I've been wearing the Apple Watch for around 2-3 weeks now.
+You might already be thinking, "didn't the Apple Watch came out, like ages ago?". The answer is yes, and no. Unless you're one of the lucky ones living in a country where it has actually launched, you might have a hard time getting your hands on a Apple Watch. In Copenhagen, Denmark, unfortunately the Apple Watch has not yet launched (but will on the 25th of September) - however, a quick train ride to Sweden solved the problem. So, thats what the awesome [company](http://www.unwire.com) I work for did, and because of that, I've been wearing the Apple Watch for around 2-3 weeks now.
 
 These thoughts are based on iOS 8.4 and watchOS 1.0.1
 
-![The Apple Watch](/assets/posts/applewatch.gif)
+![The Apple Watch](../assets/posts/applewatch.gif)
 
 # The good
 
@@ -23,7 +21,7 @@ I was not particular fan of the rather unnecessary and non-environmental friendl
 Being to able to just raise your arm to read your incoming notifications is a convenience I'm really starting to enjoy. A lot of people I talk to make jokes about, why it is so hard to just look at the phone instead. However, in a busy day, these small convenient improvements does add up I think. Being on a bike, in a meeting, out walking with your girlfriend, it's simply just a lot easier to quickly look at your watch.
 
 ## Complications and glances
-For me, the use case for the Apple Watch is pretty different from using an iPhone. On the watch, I rarely open any apps and do tasks that take longer than a couple of seconds. First of all, your arm gets pretty tired of staying in the position, and second of all, this is not where the watch excells. Neal Ford talks with the iPhreaks guys about this in episode [119](https://devchat.tv/iphreaks/119-ips-ambient-information-and-the-apple-watch-with-neal-ford){:target="_blank"}.
+For me, the use case for the Apple Watch is pretty different from using an iPhone. On the watch, I rarely open any apps and do tasks that take longer than a couple of seconds. First of all, your arm gets pretty tired of staying in the position, and second of all, this is not where the watch excells. Neal Ford talks with the iPhreaks guys about this in episode [119](https://devchat.tv/iphreaks/119-ips-ambient-information-and-the-apple-watch-with-neal-ford).
 
 Anyways, complications and glances rock 👊 in my opinion. Complications are those small pieces of information you can set to be displayed on your watch face. Glances are those small views you can swipe through when you swipe up on the watch. Instead of having to navigate to menus, apps and so forth, these are examples of easy accessible information that takes a short amount of time to read. E.g. on my watch face it tells me the current temperature, and if I click that value, it shows me the weather of today. Totally useful when you live in rainy Copenhagen and you need to decide whether or not to bring rain clothes. My watch face also shows me my next upcoming meeting.
 
@@ -47,4 +45,4 @@ The price may be the biggest issue when I want to advice people in whether or no
 # Final thoughts
 So, should you go out and by the Apple Watch? I think it depends on your wallet. For me, I want the Apple Watch, but I think it's primarily because I'm an iOS developer and/or a tech junkie. For the average iPhone user I'm not convinced that the price is justifiable yet. My bet is that this will change over time when watchOS 2.0 has landed and when we'll hopefully start to see apps taking more advantage of the platform. Or perhaps when app developers just understand the platform and it's use-cases better.
 
-What's your thoughts on the Apple Watch? Did I miss any cool features or do you simply disagree with my views? Please feel free to pitch in on [@steffendsommer](https://twitter.com/steffendsommer){:target="_blank"} or in the comments ✌️.
+What's your thoughts on the Apple Watch? Did I miss any cool features or do you simply disagree with my views? Please feel free to pitch in on [@steffendsommer](https://twitter.com/steffendsommer) or in the comments ✌️.

@@ -1,11 +1,9 @@
 ---
-
 layout: post
 title:  "Objective-C’s @selector() in Swift"
 date:   2016-03-24 09:53:28
 group: blog
 summary: "Swift 2.2 got released recently, and with the new version, Apple continues to show that they're committed to this language. One of my favourite new features of Swift is the #selector() method, which can make our code more safe."
-
 ---
 
 Swift 2.2 got released recently, and with the new version, Apple continues to show that they're committed to this language. One of my favourite new features of Swift is the `#selector()` method, which can make our code more safe.
@@ -57,4 +55,4 @@ let mySelector = #selector(viewDidLoad)
 
 Which, in my opinion, is pretty awesome 👌
 
-Check out the rest of the new stuff in Swift 2.2 [here](https://swift.org/blog/swift-2-2-released/){:target="_blank"} and also check out [this blog post](https://medium.com/swift-programming/swift-selector-syntax-sugar-81c8a8b10df3#.z2cpx1xsa){:target="_blank"} for more syntactic sugar when working with this new feature.
+Check out the rest of the new stuff in Swift 2.2 [here](https://swift.org/blog/swift-2-2-released/) and also check out [this blog post](https://medium.com/swift-programming/swift-selector-syntax-sugar-81c8a8b10df3#.z2cpx1xsa) for more syntactic sugar when working with this new feature.

@@ -24,6 +24,23 @@
           auto: false,
           pager: true
         });
+
+        // Make external links open in new tab.
+        $('.page-content a').each(function() {
+          var a = new RegExp('/' + window.location.host + '/');
+          if(!a.test(this.href)) {
+              $(this).click(function(event) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                  window.open(this.href, '_blank');
+              });
+          }
+        });
+
+        // Fix relative image paths.
+        $('.post-content img').each(function() {
+          $(this).attr("src", $(this).attr("src").replace("../", "/"));
+        });
       });
     </script>
 

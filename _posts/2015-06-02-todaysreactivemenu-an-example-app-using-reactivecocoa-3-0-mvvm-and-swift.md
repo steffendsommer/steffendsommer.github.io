@@ -1,27 +1,25 @@
 ---
-
 layout: post
-title:  "TodaysReactiveMenu - An example app using ReactiveCocoa 3.0, MVVM and Swift"
-date:   2015-06-02 18:06:28
+title: "TodaysReactiveMenu - An example app using ReactiveCocoa 3.0, MVVM and Swift"
+date: 2015-06-02 18:06:28
 group: blog
 related-talks:
 - /talks/getting-up-to-speed-with-reactivecocoa-version-4
 summary: I've been working with ReactiveCocoa the last 8 months and I'm overall very satisfied with the framework and the approach in general. I've been following the progress on ReactiveCocoa 3.0 (mainly focused around Swift) and when it recently hit beta-4, I decided to dig in.
-
 ---
 
-TL;DR The source code can be found here: [https://github.com/steffendsommer/TodaysReactiveMenu ](https://github.com/steffendsommer/TodaysReactiveMenu){:target="_blank"}
+TL;DR The source code can be found here: [https://github.com/steffendsommer/TodaysReactiveMenu ](https://github.com/steffendsommer/TodaysReactiveMenu)
 
-I've been working with ReactiveCocoa the last 8 months and I'm overall very satisfied with the framework and the approach in general. I've been following the progress on [ReactiveCocoa 3.0](https://github.com/ReactiveCocoa/ReactiveCocoa/tree/swift-development){:target="_blank"} (mainly focused around Swift) and when it recently hit beta-4, I decided to dig in.
+I've been working with ReactiveCocoa the last 8 months and I'm overall very satisfied with the framework and the approach in general. I've been following the progress on [ReactiveCocoa 3.0](https://github.com/ReactiveCocoa/ReactiveCocoa/tree/swift-development) (mainly focused around Swift) and when it recently hit beta-4, I decided to dig in.
 
 First of all, I want to put out a disclaimer. I'm new to Swift and I'm definitely new to RAC 3.0. Because of that, the majority of the hours I put into making this app, I felt like I had no idea of what I was doing:
 
-![I have no idea what I'm doing](/assets/posts/1432669225790.gif)
+![I have no idea what I'm doing](../assets/posts/1432669225790.gif)
 
-Also, it's worth noting that the intention of this project and blog post is just to get any interested reader kickstarted with ReactiveCocoa 3.0. It is not an introduction to ReactiveCocoa or MVVM. It might be easier to understand this post, if you've read the [RAC 3 changelog](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/swift-development/CHANGELOG.md){:target="_blank"} beforehand.
+Also, it's worth noting that the intention of this project and blog post is just to get any interested reader kickstarted with ReactiveCocoa 3.0. It is not an introduction to ReactiveCocoa or MVVM. It might be easier to understand this post, if you've read the [RAC 3 changelog](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/swift-development/CHANGELOG.md) beforehand.
 
 # A small API for this purpose
-Using rails and some mad scraping skills I created a small backend to parse  and expose the list of menus. The API can be found [here](http://unwire-menu.herokuapp.com/menus){:target="_blank"}, and using a `limit` parameter [here](http://unwire-menu.herokuapp.com/menus?limit=1){:target="_blank"}.
+Using rails and some mad scraping skills I created a small backend to parse  and expose the list of menus. The API can be found [here](http://unwire-menu.herokuapp.com/menus), and using a `limit` parameter [here](http://unwire-menu.herokuapp.com/menus?limit=1).
 
 The limited version will result in a JSON response similar to this:
 
@@ -52,7 +50,7 @@ The purpose of the app is to show whatever is on the today's menu of my workplac
 - The sides
 - And if there's going to be served cake
 
-Using [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper){:target="_blank"}, and the built-in `DateTransform()`, this can be fairly simple mapped:
+Using [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper), and the built-in `DateTransform()`, this can be fairly simple mapped:
 
 ```swift
 var identifier: String?
@@ -73,7 +71,7 @@ func mapping(map: Map) {
 ```
 
 # Talking to the API
-Noticing [built-in extensions](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/swift-development/ReactiveCocoa/Swift/FoundationExtensions.swift#L29-L50){:target="_blank"} for `NSURLSession` in ReactiveCocoa 3, I decided not to include any external networking frameworks. Using these extensions and the [Result framwork](https://github.com/antitypical/Result){:target="_blank"}, fetching the today's menu seems like a breeze:
+Noticing [built-in extensions](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/swift-development/ReactiveCocoa/Swift/FoundationExtensions.swift#L29-L50) for `NSURLSession` in ReactiveCocoa 3, I decided not to include any external networking frameworks. Using these extensions and the [Result framwork](https://github.com/antitypical/Result), fetching the today's menu seems like a breeze:
 
 ```swift
 func fetchTodaysMenu() -> SignalProducer<Menu?, NSError> {
@@ -123,7 +121,7 @@ Note how the `ignoreNil` is used as `menu` might be `nil`.
 ### Signal manipulation
 The last example looks into solving the following challenge: to fetch today's menu every time the view gets active.
 
-Let's start out by declaring two helpers, as we're not using [ReactiveViewModel](https://github.com/ReactiveCocoa/ReactiveViewModel){:target="_blank"}:
+Let's start out by declaring two helpers, as we're not using [ReactiveViewModel](https://github.com/ReactiveCocoa/ReactiveViewModel):
 
 ```swift
 let active = NSNotificationCenter.defaultCenter().rac_addObserverForName(UIApplicationDidBecomeActiveNotification, object: nil).toSignalProducer()
@@ -140,7 +138,7 @@ let inactive = NSNotificationCenter.defaultCenter().rac_addObserverForName(UIApp
 self.viewIsActive <~ merge([active, inactive])
 ```
 
-Two signal producers to tell us whether or not the view is active. Note how `toSignalProducer()` has been used to go from `RACSignal` to `SignalProducer`. Note how `ignoreError` is being used to tell the compiler that we only care about values, not errors. The `ignoreError` and `merge` operator are small helpers I made during this project and is located [in the repo](https://github.com/steffendsommer/TodaysReactiveMenu/blob/master/TodaysReactiveMenu/Util/RACHelpers.swift){:target="_blank"} as well.
+Two signal producers to tell us whether or not the view is active. Note how `toSignalProducer()` has been used to go from `RACSignal` to `SignalProducer`. Note how `ignoreError` is being used to tell the compiler that we only care about values, not errors. The `ignoreError` and `merge` operator are small helpers I made during this project and is located [in the repo](https://github.com/steffendsommer/TodaysReactiveMenu/blob/master/TodaysReactiveMenu/Util/RACHelpers.swift) as well.
 
 Having the knowledge for when the view is active, let's try to use this for triggering a menu fetch:
 
@@ -169,7 +167,7 @@ Now this is cool! Let's go through it:
 - Make sure to return on the `mainQueueScheduler` as this will be presented in the UI.
 
 # Showing the menu of today
-Having the hardest part taking care of, the only thing we're missing now, is to actually present our content in the view. It seems like there's no extensions for UI elements yet, as Colin Eberhardt also mentions in [his blog post](http://blog.scottlogic.com/2015/05/15/mvvm-reactive-cocoa-3.html){:target="_blank"}, but he was so kind to make [some for us](https://github.com/ColinEberhardt/ReactiveTwitterSearch/blob/master/ReactiveTwitterSearch/Util/UIKitExtensions.swift){:target="_blank"}.
+Having the hardest part taking care of, the only thing we're missing now, is to actually present our content in the view. It seems like there's no extensions for UI elements yet, as Colin Eberhardt also mentions in [his blog post](http://blog.scottlogic.com/2015/05/15/mvvm-reactive-cocoa-3.html), but he was so kind to make [some for us](https://github.com/ColinEberhardt/ReactiveTwitterSearch/blob/master/ReactiveTwitterSearch/Util/UIKitExtensions.swift)
 
 Having these extensions, it's a no-brainer to wire up our UI elements with our view model. Here's some examples:
 
@@ -181,14 +179,15 @@ self.logo.rac_image <~ self.viewModel.logo
 
 # That's a wrap
 
-![We're done!](/assets/posts/2348745.gif)
+![We're done!](../assets/posts/2348745.gif)
 
-That's it! I hope this post will help you get started with ReactiveCocoa 3 as it took me quite a while just to setup basic bindings. I did take some shortcuts and I consider the project as being experimental and as work in progress. Feel free to ping me at [@steffendsommer](https://twitter.com/steffendsommer){:target="_blank"} or leave a comment with any feedback or questions.
+That's it! I hope this post will help you get started with ReactiveCocoa 3 as it took me quite a while just to setup basic bindings. I did take some shortcuts and I consider the project as being experimental and as work in progress. Feel free to ping me at [@steffendsommer](https://twitter.com/steffendsommer) or leave a comment with any feedback or questions.
 
 ## Some other useful resources
 ReactiveCocoa 3.0 is, at the time of writing, still very new and because of that, the resources are limited. I also know that this post is jumping straight into the bits and pieces of the app instead of explaining the concepts of ReactiveCocoa 3.0. If you're looking for other resources, here are some I used while creating this project:
 
-- [ReactiveCocoa 3.0 changelog](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/swift-development/CHANGELOG.md){:target="_blank"} (make sure to see the implementation, tests and issues as well)
-- Colin Eberhardt's [ReactiveTwitterSearch](https://github.com/ColinEberhardt/ReactiveTwitterSearch){:target="_blank"}
-- [This](http://nomothetis.svbtle.com/an-introduction-to-reactivecocoa){:target="_blank"} and [this](http://nomothetis.svbtle.com/reactivecocoa-ii-reacting-to-signals){:target="_blank"} post by Alexandros Salazar
-- The [reactivecocoa-3](http://stackoverflow.com/questions/tagged/reactive-cocoa-3){:target="_blank"} tag on SO
+- [ReactiveCocoa 3.0 changelog](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/swift-development/CHANGELOG.md) (make sure to see the implementation, tests and issues as well)
+- Colin Eberhardt's [ReactiveTwitterSearch](https://github.com/ColinEberhardt/ReactiveTwitterSearch)
+- [This](http://nomothetis.svbtle.com/an-introduction-to-reactivecocoa) and [this](http://nomothetis.svbtle.com/reactivecocoa-ii-reacting-to-signals) post by Alexandros Salazar
+- The [reactivecocoa-3](http://stackoverflow.com/questions/tagged/reactive-cocoa-3) tag on SO
+

@@ -39,3 +39,4 @@ kramdown:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-minifier

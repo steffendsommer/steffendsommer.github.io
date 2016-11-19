@@ -17,7 +17,25 @@ collections:
     permalink: /talks/:path/
     layout: talk
 
+twitter:
+  username: steffendsommer
+logo: "/assets/logo.png"
+social:
+  name: Steffen D. Sommer
+  links:
+    - https://twitter.com/steffendsommer
+    - https://www.facebook.com/steffendsommer
+    - http://instagram.com/steffendsommer/
+    - https://www.linkedin.com/in/steffendsommer
+    - https://github.com/steffendsommer
+    - http://stackoverflow.com/users/4145708/steffen-d-sommer
+
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Gems
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag

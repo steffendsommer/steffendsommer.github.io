@@ -47,7 +47,6 @@ GEM
     html-pipeline (1.9.0)
       activesupport (>= 2)
       nokogiri (~> 1.4)
-    htmlcompressor (0.3.1)
     i18n (0.7.0)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
@@ -70,10 +69,6 @@ GEM
     jekyll-mentions (0.2.1)
       html-pipeline (~> 1.9.0)
       jekyll (~> 2.0)
-    jekyll-minifier (0.0.1)
-      htmlcompressor (>= 0.1.2)
-      jekyll
-      yui-compressor (>= 0.12.0)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.6.2)
       jekyll (~> 2.0)
@@ -125,7 +120,6 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     yajl-ruby (1.2.1)
-    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -133,7 +127,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
-  jekyll-minifier
   jekyll-seo-tag
   jekyll-sitemap
 

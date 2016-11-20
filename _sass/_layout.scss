@@ -116,6 +116,26 @@
     }
 }
 
+#share {
+    margin-top:50px;
+    text-align:center;
+    p {
+        font-size:14px;
+        color: $grey-color;
+    }
+    
+    ul {
+        margin-left:0px;
+        list-style: none;
+        font-size:14px;
+        
+        li {
+            display:inline;
+            padding-right:15px;
+        }
+    }
+}
+
 
 
 /**

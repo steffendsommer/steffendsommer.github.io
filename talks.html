@@ -9,7 +9,8 @@ group: talks
 <div class="talks">
 
   <ul>
-  {% for talk in site.talks | sort: "event-date" | reverse %}
+  {% assign sorted = (site.talks | sort: 'event-date') | reverse %}
+  {% for talk in sorted %}
     <li><a href="{{ talk.url }}">{{ talk.title }}</a><br><span class="post-meta">{{ talk.event }} - {{ talk.event-date | date: "%b %-d, %Y" }}</span></li>
   {% endfor %}
   </ul>

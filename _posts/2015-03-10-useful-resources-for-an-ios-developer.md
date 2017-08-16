@@ -141,3 +141,6 @@ Another podcast on my list which I try to keep up with. The podcast is a bit mor
 
 ## [NSHipster](http://nshipster.com/)
 Probably my favourite iOS development blog. The blog dives into small areas that are easy to overlook.
+
+## [SoftwareHow's list of blogs](https://www.softwarehow.com/best-blogs-for-ios-developers/)
+If you need more examples of great news sources and blogs, have a look at this comprehensive list from SoftwareHow.

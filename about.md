@@ -6,7 +6,7 @@ weight: 2
 group: about
 ---
 
-Hi! I am a passionate and ambitious Swift developer with management experience and a flair for design and UX from Copenhagen, Denmark. I have a master's degree in Computer Science as well as multiple years of experience working with apps and backends of high complexity and large user bases. Further, I have experience being a technically lead as well as being a manager. 
+Hi! I am a passionate and ambitious Swift developer with management experience and a flair for design and UX from Copenhagen, Denmark. I have a master's degree in Computer Science as well as experience working with apps and backends of high complexity and large user bases. Further, I have experience being a technically lead as well as being a manager. 
 
 I favor software that is consistent, decoupled, tested and easy to reason about. I care and contribute to the community in order to improve as a community as well as progressing as an individual. I like to be proactive, I love experimenting, I'm interested in UX and UI's and I'm not a fan of the saying "If it ain't broke, don't fix it". 
 

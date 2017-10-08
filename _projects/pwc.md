@@ -3,7 +3,7 @@
 layout: project
 title: PwC Ekstra Værdi
 date: April 2017
-role: Vapor Developer
+role: Lead Vapor Developer
 company: Nodes
 companyurl: http://nodesagency.com
 refurl: https://pwc.dk

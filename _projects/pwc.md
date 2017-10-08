@@ -17,8 +17,6 @@ group: projects
 
 ---
 
-TODO
+PwC is a multinational professional services network and is one the Big Four auditors. PwC wanted an app for their customers to stay on top of content and offers that PwC has to offer.
 
-Swipp is a major Mobile Payment App for the Danish market. The app is backed by a consortium of 70+ Danish banks, accepted by 10K+ shops and businesses and has an active 150K user base.
-
-The App allows for payments to merchants, ranging from small independent shops to the largest drug store chain in Denmark, and for person-to-person transactions.
+I helped build a backend solution for this app which synchronizes content with PwC's own system. It offers an admin panel for PwC administrators to manage some of the app-specific content and it has a modern API for the iOS and Android apps to interface.

@@ -8,7 +8,7 @@ company: Nodes
 companyurl: http://nodesagency.com
 refurl: https://pwc.dk
 thumbnail: /assets/projects/pwc/pwc.png
-weight: 6
+weight: 9
 screens:
 - /assets/projects/pwc/1.png
 - /assets/projects/pwc/2.png

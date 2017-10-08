@@ -8,7 +8,7 @@ company: PACKT
 companyurl: https://www.packtpub.com
 refurl: https://www.amazon.com/Swift-Programming-Kids-Steffen-Sommer-ebook/dp/B01N6E8EB9/ref=sr_1_1?ie=UTF8&qid=1502998364&sr=8-1&keywords=swift+ios+programming+for+kids
 thumbnail: /assets/projects/iosprogrammingforkids/iosprogrammingforkids.png
-weight: 6
+weight: 8
 screens:
 - /assets/projects/iosprogrammingforkids/1.png
 - /assets/projects/iosprogrammingforkids/2.png

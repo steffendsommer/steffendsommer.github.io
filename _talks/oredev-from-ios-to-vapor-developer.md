@@ -8,6 +8,7 @@ event: Øredev 2017
 external-link: http://oredev.org/2017/sessions/from-ios-to-vapor-developer-my-experiences-after-working-with-server-side-swift-in-production-for-6-months
 speaker-deck-id: dc7f477cbc2844e885d4077d311c54fc
 group: talks
+vimeo-id: 242147422
 
 ---
 

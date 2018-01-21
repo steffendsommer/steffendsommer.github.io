@@ -2,11 +2,11 @@
 
 layout: talk
 title: From iOS- to Vapor developer; my experiences after working with server-side Swift in production for 6 months
-event-date: 2017-11-09
-location: Malmö, Sweden
-event: Øredev 2017
-external-link: http://oredev.org/2017/sessions/from-ios-to-vapor-developer-my-experiences-after-working-with-server-side-swift-in-production-for-6-months
-speaker-deck-id:
+event-date: 2017-10-30
+location: London, England
+event: VaporLondon
+external-link: https://www.meetup.com/VaporLondon/events/243769172/
+speaker-deck-id: 1466064d1fc947109f0ea6e3897e15b3
 group: talks
 
 ---

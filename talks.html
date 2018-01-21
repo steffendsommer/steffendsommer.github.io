@@ -8,11 +8,24 @@ group: talks
 
 <div class="talks">
 
-  <ul>
   {% assign sorted = (site.talks | sort: 'event-date') | reverse %}
   {% for talk in sorted %}
-    <li><a href="{{ talk.url }}">{{ talk.title }}</a><br><span class="post-meta">{{ talk.event }} - {{ talk.event-date | date: "%b %-d, %Y" }}</span></li>
+    {% assign currentyear = talk.event-date | date: "%Y" %}
+    {% assign currentdate = talk.event-date | date: "%Y-%m-%d" %}
+    {% assign now = site.time | date: "%Y-%m-%d" %}
+    {% if currentdate > now %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h1 id="upcoming">Upcoming</h1>
+      <ul>
+    {% elsif currentyear != date %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h1 id="y{{talk.event-date | date: "%Y"}}">{{ currentyear }}</h1>
+      <ul>
+      {% assign date = currentyear %}
+    {% endif %}
+      <li><a href="{{ talk.url }}">{{ talk.title }}</a> <span class="post-meta">{{ talk.event }} - {{ talk.event-date | date: "%b %-d, %Y" }}</span></li>
+    {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
-  </ul>
-  
+
+      
 </div>

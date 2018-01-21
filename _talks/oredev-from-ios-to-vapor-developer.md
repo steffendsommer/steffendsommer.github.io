@@ -9,6 +9,8 @@ external-link: http://oredev.org/2017/sessions/from-ios-to-vapor-developer-my-ex
 speaker-deck-id: dc7f477cbc2844e885d4077d311c54fc
 group: talks
 vimeo-id: 242147422
+related-posts:
+- /blog/2018/01/21/from-ios-to-vapor-developer
 
 ---
 

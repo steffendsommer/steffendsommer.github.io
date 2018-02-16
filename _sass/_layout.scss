@@ -197,6 +197,24 @@
     background-color: #f8f8f8;
 }
 
+.badge {
+    display: inline-block;
+    padding: .30em .6em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .40rem;
+    color: #fff;
+    font-size:85%;
+    background-color: $brand-color;
+        
+    &:hover {
+        color: white;
+        background-color: $brand-color-light;
+    }
+}
+
 .older-posts {
     margin-top:70px;
     text-align:center;

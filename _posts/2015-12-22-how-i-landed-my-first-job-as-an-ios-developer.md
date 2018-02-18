@@ -11,7 +11,7 @@ I recently got contacted by my old university, University of Copenhagen, where I
 # M.Sc. Computer Science
 In the summer of 2014, I came out of that door on the picture below with a master's degree in Computer Science. My studies included a specialisation in Application Development as well as a semester abroad in San Diego.
 
-![Look mom, I graduated.](../assets/posts/5464232.jpg){:height="300px"}
+![Look mom, I graduated.](/assets/posts/5464232.jpg){:height="300px"}
 
 At the university, my fields of interests were high-level programming, human-computer interaction and  IT/project management. This resulted in me exploring topics as navigation, augmented reality and the iPhone when writing my bachelor's assignment. I wrote my master's thesis about big data, machine learning, crowdsourcing and web interfaces. When I was 6 months from getting my degree I started focusing on iOS development (after having done both iPhone and Android development during my studies). So even though I had done high level programming for many years, it was not until at the end of my studies I decided to work with iOS development.
 
@@ -29,7 +29,7 @@ Experience experience experience. Although a degree within Computer Science (or 
 ## Online presence
 Having and being aware of one's online presence can involve different things and can help you being invited into those interviews. Here are three of my personal favourites.
 
-![Networking.](../assets/posts/networking.gif)
+![Networking.](/assets/posts/networking.gif)
 
 ### GitHub
 Contributing to open source projects is a really great thing to do. It shows a lot about your character and motivation for what you do. It will also help you to meet other developers which you might also learn from. Also, it might also keep you up to date with trends within your field and you would probably also know about new useful libraries when writing your code. Stars can be useful, but please don't put too much value in whether you receive a lot of stars or not on your projects.

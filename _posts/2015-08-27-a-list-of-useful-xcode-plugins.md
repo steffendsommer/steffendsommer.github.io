@@ -8,7 +8,7 @@ related-posts:
 summary: Because I like to get inspired by how others work, I decided to do a small list of the Xcode plugins I use daily. I use Alcatraz for handling my Xcode plugins. It works fairly well, except sometimes when Apple updates Xcode. The list of plugins in this post has been used with Xcode 6.4.
 ---
 
-![Vacation on Bali](../assets/posts/bali.jpg){:height="300px"}
+![Vacation on Bali](/assets/posts/bali.jpg){:height="300px"}
 
 After three weeks of vacation on Bali, it feels really good to be back.
 

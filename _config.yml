@@ -2,10 +2,11 @@
 title: Steffen D. Sommer
 subtitle: "Swift Developer from Copenhagen, Denmark"
 email: steffendsommer@icloud.com
-description: "A Swift developer blogging about topics such as Vapor, Server-Side Swift, ReactiveCocoa, MVVM, dependency injection, unit testing, AutoLayout, Swift and more."
+description: "A developer blogging about topics such as Server-Side Swift, Vapor, Functional Reactive Programming, MVVM, Clean Architecture, Dependency Injection, Unit Testing, AutoLayout, Productivity and more."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.steffendsommer.com" # the base hostname & protocol for your site
 permalink: /blog/:year/:month/:day/:title/
+future: true
 
 collections:
   projects:

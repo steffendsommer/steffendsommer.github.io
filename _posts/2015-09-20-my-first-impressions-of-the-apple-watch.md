@@ -10,7 +10,7 @@ You might already be thinking, "didn't the Apple Watch came out, like ages ago?"
 
 These thoughts are based on iOS 8.4 and watchOS 1.0.1
 
-![The Apple Watch](../assets/posts/applewatch.gif)
+![The Apple Watch](/assets/posts/applewatch.gif)
 
 # The good
 

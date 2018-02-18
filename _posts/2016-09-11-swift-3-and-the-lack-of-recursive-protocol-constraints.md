@@ -66,7 +66,7 @@ let vm = ViewModel<View<ViewModel<View...>>>()
 
 The only thing we achieved was to postpone the problem. At this point I was like: Compiler..
 
- ![say-to-my-face](../assets/posts/say-to-my-face.gif)
+ ![say-to-my-face](/assets/posts/say-to-my-face.gif)
 
 After some more digging, I finally got it confirmed that this is a current limitation in Swift. Check out the open issue [here](https://bugs.swift.org/browse/SR-1445) and the discussions about this topic [here](http://stackoverflow.com/questions/37253236/swift-protocol-with-associated-type-type-may-not-reference-itself-as-a-require), [here](https://forums.developer.apple.com/thread/15256) and [here](http://stackoverflow.com/questions/31869440/swift-xcode-7-beta-5-type-cannot-refer-to-itself-as-a-requirement).
 

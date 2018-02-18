@@ -8,7 +8,7 @@ summary: Ever since Apple announced that Swift was going to be open source, I've
 
 Ever since Apple announced that Swift was going to be open source, I've been interested in the development of moving Swift to the backend. Being an old web developer myself who is still doing some web stuff, I found it exciting to be able to re-use my knowledge of a programming language across frontend and backend. Although I still believe you learn a lot from knowing multiple languages, you can't deny that you would be more productive, and learn more about the language when being to able to use it across platforms. With that said, I want to give a quick start for getting started with Swift on the web, so let's dive in.
 
-![Let's go](../assets/posts/23423234.gif)
+![Let's go](/assets/posts/23423234.gif)
 
 
 # Choosing your Swift web framework
@@ -78,13 +78,13 @@ Last step is to deploy our awesome web app. I normally use Heroku when I'm just 
 
 Go to `yourapp.herokuapp.com` and you should be able to see the following:
 
-![Vapor](../assets/posts/90238587435.png)
+![Vapor](/assets/posts/90238587435.png)
 
 
 # Good job
 
 Wohoo, that's it! Your Swift app is now running both locally and remotely on Heroku. Now it's time to explore the possibilities with Vapor. I noticed that there were added support for a new ORM library called [Fluent](https://github.com/tannernelson/fluent) recently, made by the same author as Vapor.
 
-![Good job](../assets/posts/32872938471.gif)
+![Good job](/assets/posts/32872938471.gif)
 
 Enough from me, I want to use the rest of my weekend trying to make a mobile backend using Vapor 👊.

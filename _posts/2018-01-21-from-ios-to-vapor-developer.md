@@ -23,7 +23,7 @@ that got me all excited. After this realization I started slowly to look into th
 
 I quickly started to focus on the popular topic around how one could share code between iOS and the backend. Here's an issue I opened at the Vapor repo at an early stage:
 
-![inline](../assets/posts/githubissue.png)
+![inline](/assets/posts/githubissue.png)
 
 Parallel to the first steps I was taking into the world of server-side Swift, an app agency called [Nodes](https://www.nodesagency.com), with headquarter in Copenhagen, started to look for a new language and framework for their backends. They decided to invest in Vapor, because they liked the idea of using Swift on the server and because the framework had similarities with [Laravel](https://laravel.com) which was the Nodes' framework of choice at that time.
 

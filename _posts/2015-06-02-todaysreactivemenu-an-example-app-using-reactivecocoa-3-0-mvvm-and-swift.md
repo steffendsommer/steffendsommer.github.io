@@ -14,7 +14,7 @@ I've been working with ReactiveCocoa the last 8 months and I'm overall very sati
 
 First of all, I want to put out a disclaimer. I'm new to Swift and I'm definitely new to RAC 3.0. Because of that, the majority of the hours I put into making this app, I felt like I had no idea of what I was doing:
 
-![I have no idea what I'm doing](../assets/posts/1432669225790.gif)
+![I have no idea what I'm doing](/assets/posts/1432669225790.gif)
 
 Also, it's worth noting that the intention of this project and blog post is just to get any interested reader kickstarted with ReactiveCocoa 3.0. It is not an introduction to ReactiveCocoa or MVVM. It might be easier to understand this post, if you've read the [RAC 3 changelog](https://github.com/ReactiveCocoa/ReactiveCocoa/blob/swift-development/CHANGELOG.md) beforehand.
 
@@ -179,7 +179,7 @@ self.logo.rac_image <~ self.viewModel.logo
 
 # That's a wrap
 
-![We're done!](../assets/posts/2348745.gif)
+![We're done!](/assets/posts/2348745.gif)
 
 That's it! I hope this post will help you get started with ReactiveCocoa 3 as it took me quite a while just to setup basic bindings. I did take some shortcuts and I consider the project as being experimental and as work in progress. Feel free to ping me at [@steffendsommer](https://twitter.com/steffendsommer) or leave a comment with any feedback or questions.
 

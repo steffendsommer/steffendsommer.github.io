@@ -6,6 +6,7 @@ description: "A developer blogging about topics such as Server-Side Swift, Vapor
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.steffendsommer.com" # the base hostname & protocol for your site
 permalink: /blog/:year/:month/:day/:title/
+future: true
 
 collections:
   projects:

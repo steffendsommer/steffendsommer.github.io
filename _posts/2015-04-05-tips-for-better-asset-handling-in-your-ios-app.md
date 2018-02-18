@@ -42,11 +42,11 @@ For colouring assets, you might want to bring in an external library such as UII
 
 This code will make a simple image asset go from:
 
-![Image before](../assets/posts/1428243313539.png){:height="50px" width="50px"}
+![Image before](/assets/posts/1428243313539.png){:height="50px" width="50px"}
 
 to:
 
-![Image after](../assets/posts/1428243326767.png){:height="50px" width="50px"}
+![Image after](/assets/posts/1428243326767.png){:height="50px" width="50px"}
 
 Pretty simple, right? This will also make your app ready for skinning if that is what you want. If you have assets that contains multiple colours or gradients, you might want to look into tinting properties (e.g. on `UIImageView`).
 

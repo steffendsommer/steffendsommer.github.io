@@ -19,6 +19,10 @@
     margin-bottom: 0px;
     margin-top: 0px;
     font-weight:50;
+
+    @include media-query($on-palm) {
+        font-size: 32px;
+    }
 }
 
 .tagline {

@@ -237,6 +237,17 @@
 
 
 /**
+* Talks
+*/
+.talks {
+    ul:not(:last-child) {
+        margin-bottom:50px;
+    }
+}
+
+
+
+/**
 * Projects
 */
 .project-list {

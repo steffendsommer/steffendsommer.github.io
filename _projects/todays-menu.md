@@ -6,7 +6,6 @@ date: May 2015
 role: Creator
 refurl: https://github.com/steffendsommer/TodaysReactiveMenu
 thumbnail: /assets/projects/todaysmenu/todaysmenu.png
-weight: 7
 screens:
 - /assets/projects/todaysmenu/1.png
 - /assets/projects/todaysmenu/2.png

@@ -5,7 +5,6 @@ title: BITWKND
 date: November 2013
 role: Founder
 thumbnail: /assets/projects/bitwknd/bitwknd.png
-weight: 3
 screens:
 - /assets/projects/bitwknd/1.png
 - /assets/projects/bitwknd/2.png

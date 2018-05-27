@@ -5,7 +5,6 @@ title: KOE
 date: October 2013
 role: Founder
 thumbnail: /assets/projects/koe/koe.png
-weight: 2
 group: projects
 
 ---

@@ -7,7 +7,6 @@ role: Co-organizer
 company: ServerSide.swift
 companyurl: https://www.serversideswift.info
 thumbnail: /assets/projects/serversideswift/serversideswift.png
-weight: 10
 screens:
 - /assets/projects/serversideswift/1.png
 group: projects

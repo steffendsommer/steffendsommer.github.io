@@ -9,7 +9,6 @@ screens:
 - /assets/projects/smirnoffapplebite/2.png
 - /assets/projects/smirnoffapplebite/3.png
 thumbnail: /assets/projects/smirnoffapplebite/smirnoffapplebite.png
-weight: 4
 group: projects
 
 ---

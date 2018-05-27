@@ -5,7 +5,6 @@ title: SNEAKERBAG
 date: February 2014
 role: Founder
 thumbnail: /assets/projects/sneakerbag/sneakerbag.png
-weight: 5
 screens:
 - /assets/projects/sneakerbag/1.png
 group: projects

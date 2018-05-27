@@ -6,7 +6,6 @@ date: February 2011
 role: Developer
 refurl: http://www.vipp.com/en
 thumbnail: /assets/projects/digitaltrashbin/digitaltrashbin.png
-weight: 0
 screens:
 - /assets/projects/digitaltrashbin/1.png
 - /assets/projects/digitaltrashbin/2.png

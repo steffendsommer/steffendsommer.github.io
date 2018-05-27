@@ -6,7 +6,6 @@ date: April 2012
 role: Lead developer
 refurl: https://www.facebook.com/TriviaFight
 thumbnail: /assets/projects/triviafight/triviafight.png
-weight: 1
 screens:
 - /assets/projects/triviafight/1.png
 - /assets/projects/triviafight/2.png

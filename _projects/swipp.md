@@ -8,7 +8,6 @@ company: Unwire
 companyurl: http://unwire.com
 refurl: https://swipp.dk
 thumbnail: /assets/projects/swipp/swipp.png
-weight: 6
 screens:
 - /assets/projects/swipp/1.png
 - /assets/projects/swipp/2.png

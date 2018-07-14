@@ -5,16 +5,23 @@ layout: default
   
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.event }} - {{ page.event-date | date: "%b %-d, %Y" }}{% if page.external-link %} - <a href="{{ page.external-link }}" target="_blank">Event</a>{% endif %}</p>
+    <p class="post-meta">{% if page.external-link %}<a href="{{ page.external-link }}" target="_blank">{% endif %}{{ page.event }}{% if page.external-link %}</a>{% endif %} - {{ page.event-date | date: "%b %-d, %Y" }}</p>
   </header>
   
   <article class="post-content">
     {{ content }}
     
-    {% if page.vimeo-id %}
+    {% if page.vimeo-id or page.youtube-id %}
     <h1>Video</h1>
+    {% endif %}
+
+    {% if page.vimeo-id %}
     <iframe src="https://player.vimeo.com/video/{{ page.vimeo-id }}?color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     {% endif %}
+
+    {% if page.youtube-id %}
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    {% endif %}    
 
     {% if page.speaker-deck-id %}
     <h1>Slides</h1>

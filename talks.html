@@ -13,7 +13,7 @@ group: talks
     {% assign currentyear = talk.event-date | date: "%Y" %}
     {% assign currentdate = talk.event-date | date: "%Y-%m-%d" %}
     {% assign now = site.time | date: "%Y-%m-%d" %}
-    {% if currentdate > now %}
+    {% if currentdate > now && forloop.first %}
       {% unless forloop.first %}</ul>{% endunless %}
       <h1 id="upcoming">Upcoming</h1>
       <ul>

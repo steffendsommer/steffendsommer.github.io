@@ -14,6 +14,23 @@
     }
 }
 
+.post-site-header {
+    min-height: 36px;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+    // Positioning context for the mobile navigation icon
+    position: relative;
+    
+    .wrapper {
+        text-align:center;
+    }
+}
+
+.post-logo {
+    margin-bottom:10px;
+}
+
 .site-title {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 56px;
@@ -162,6 +179,11 @@
 
 .post-title {
     font-size: 42px;
+    margin-bottom:0px;
+}
+
+.post-details-title {
+    font-size: 52px;
     margin-bottom:0px;
 }
 

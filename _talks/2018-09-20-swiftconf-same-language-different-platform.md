@@ -9,6 +9,7 @@ external-link: https://swiftconf.com
 speaker-deck-id: 604fbe3bffde466cbc0180afe00949b7
 group: talks
 youtube-id: vesAhaiaujA
+country: 🇩🇪
 
 ---
 

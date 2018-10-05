@@ -11,6 +11,7 @@ group: talks
 vimeo-id: 242147422
 related-posts:
 - /blog/2018/01/21/from-ios-to-vapor-developer
+country: 🇸🇪
 
 ---
 

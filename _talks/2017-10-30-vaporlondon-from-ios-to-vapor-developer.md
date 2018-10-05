@@ -10,6 +10,7 @@ speaker-deck-id: 1466064d1fc947109f0ea6e3897e15b3
 group: talks
 related-posts:
 - /blog/2018/01/21/from-ios-to-vapor-developer
+country: 🇬🇧
 
 ---
 

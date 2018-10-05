@@ -8,6 +8,7 @@ event: Nodes
 external-link: https://nodesagency.com
 group: talks
 youtube-id: G1Fo_BHOW84
+country: 🇩🇰
 
 ---
 

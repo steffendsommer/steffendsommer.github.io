@@ -10,6 +10,7 @@ speaker-deck-id: 2d94e650ca0f40459667edaf372d1a6f
 group: talks
 related-posts:
 - /blog/2015/06/02/todaysreactivemenu-an-example-app-using-reactivecocoa-3-0-mvvm-and-swift
+country: 🇩🇰
 
 ---
 

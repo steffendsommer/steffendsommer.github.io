@@ -6,6 +6,7 @@ event-date: 2018-10-04
 location: Krakow, Poland
 event: Mobiconf
 external-link: https://2018.mobiconf.org
+speaker-deck-id: ad378d15f61d465f8283c9bb320980fe
 group: talks
 
 ---

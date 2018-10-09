@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-layout
 title: Talks
 permalink: /talks/
 weight: 1
@@ -8,7 +8,7 @@ group: talks
 
 <div class="talks">
 
-  {% assign sorted = (site.talks | sort: 'event-date') | reverse %}
+  {% assign sorted = site.talks | sort: 'event-date' | reverse %}
   {% for talk in sorted %}
     {% assign currentyear = talk.event-date | date: "%Y" %}
     {% assign currentdate = talk.event-date | date: "%Y-%m-%d" %}

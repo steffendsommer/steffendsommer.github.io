@@ -37,6 +37,6 @@ kramdown:
   input: GFM
 
 # Gems
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

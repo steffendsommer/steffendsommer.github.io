@@ -1,30 +1,61 @@
----
-layout: default-layout
-title: Blog
-permalink: /
-group: blog
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Steffen D. Sommer | Technical leader from Copenhagen, Denmark</title>
 
-<div class="home">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
 
-  <ul class="post-list">
-    {% for post in site.posts limit:5 %}
-      <li>
-        
-        <div class="post-headline-info">
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/layout.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container px-sm-5 form-signin">
+      <div class="row mx-sm-n5">
+        <div class="col-sm-7 px-sm-5">
+          <h1>Steffen D. Sommer is a technical leader from Copenhagen, Denmark.</h1>
+          <p>
+            I am a passionate and ambitious Swift developer with management experience and a flair for design and UX from Copenhagen, Denmark. I have a master’s degree in Computer Science as well as experience working with apps and backends of high complexity and large user bases. Further, I have experience being a technically lead as well as being a manager.
+          </p>
+          <hr align="left" />
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">LinkedIn</a></li>
+            <li class="list-inline-item"><a href="#">Twitter</a></li>
+            <li class="list-inline-item"><a href="#">Medium</a></li>
+            <li class="list-inline-item"><a href="#">GitHub</a></li>
+            <li class="list-inline-item"><a href="#">SpeakersDeck</a></li>
+          </ul>
         </div>
+        <div class="col-sm-5 px-sm-5">
+          <img src="img/me.jpg" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
 
-        <p>{{ post.summary }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-  
-  <div class="older-posts">
-    <a href="/blog/archive" class="badge">Older posts</a>
-  </div>
+  </body>
+</html>
 
-</div>
